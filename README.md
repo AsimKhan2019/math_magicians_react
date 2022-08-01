@@ -33,6 +33,7 @@ Run command in the VSC Terminal npx create-react-app math_magicians_react
 The command will complete the installtion of the required files like Webpack, etc. 
 Run npm start to start the application
 You should see the Reach logo on the front page. 
+If needed run npm init to initialize the project (but not necessary)
 
 ### Usage
 All the required folders and files are added to the application tree
