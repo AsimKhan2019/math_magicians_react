@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math_Magicians
 
-## Available Scripts
+> The purpose of this exercise is to install and create application using React and deploy it to your repository. The Math Magician project will run calculation on a Single Page App
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML, CSS, Web Pack, Javascript
+- Visual Studio Code and GitHub
+- Git Flow, Webpack, Jest
+- React JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo (if available)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the commands of React to get started with the project.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A GitHub Account
+Visual Studio Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup
+Simply create an empty repository
+Open Visual Studio Code
 
-### `npm run eject`
+### Install
+Run command in the VSC Terminal npx create-react-app math_magicians_react
+The command will complete the installtion of the required files like Webpack, etc. 
+Run npm start to start the application
+You should see the Reach logo on the front page. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Usage
+All the required folders and files are added to the application tree
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
+Create a pull request 
+The pull request when test the compatibility of the merge
+If the merge is possible then the sign of ability to merge will be shown 
+Click on create a new pull request
+The linters test will begin to run during the pull request 
+If the test fails click on the details against the test and see where the error occured
+After fixing your code re-run the test again
 
 ### Deployment
+After all the tests have succeeded, add comments to the pull request and save comment 
+Leave the pull request open for review by peers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Asim Mehmood Khan**
+
+- GitHub: [@githubhandle](https://github.com/AsimKhan2019/)
+- Twitter: [@twitterhandle](https://twitter.com/vtechbiz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/asim-khan-9bbb4211/)
+
+## 🤝 Contributing
+
+I have opened issues in the Issues section of the project. Feel free to add your comments to the issues
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- To my team they have helped me
+- Thanks to Microverse study material and guidelines
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
