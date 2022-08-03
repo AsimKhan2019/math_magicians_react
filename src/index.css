@@ -27,7 +27,6 @@ body {
   width: 100%;
   max-width: 400px;
   background-color: #fff;
-  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 2px 64px rgba(0, 0, 0, 0.2);
 }
@@ -63,21 +62,41 @@ button:hover {
 
 .operators {
   display: flex;
+  flex-direction: column;
+  width: 20%;
+  float: right;
+}
+
+.simpleOperators {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 80%;
 }
 
 .operators button {
   flex: 1 1 0%;
   background-color: var(--primary);
   font-weight: 700;
+  border: 0.2px solid #fff;
+}
+
+.simpleOperators button {
+  display: block;
+  width: 100%;
+  border: 0.2px solid #fff;
 }
 
 .digits {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 14.6%;
+  width: 80%;
 }
 
 .digits button {
   flex: 1 1 33.333%;
-  max-width: 33.333%;
+  /*max-width: 33.333%;*/
   background-color: var(--dark);
+  border: 0.2px solid #fff;
 }
