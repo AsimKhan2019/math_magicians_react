@@ -31,10 +31,10 @@ class Calculator extends Component {
           <button type="button">%</button>
         </div>
         <div className="operators">
-          <button type="button">/</button>
-          <button type="button">*</button>
-          <button type="button">+</button>
+          <button type="button">&#247;</button>
+          <button type="button">&times;</button>
           <button type="button">-</button>
+          <button type="button">+</button>
           <button type="button">=</button>
         </div>
 
