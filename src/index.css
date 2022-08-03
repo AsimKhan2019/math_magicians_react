@@ -96,7 +96,8 @@ button:hover {
 
 .digits button {
   flex: 1 1 33.333%;
-  /*max-width: 33.333%;*/
+
+  /* max-width: 33.333%; */
   background-color: var(--dark);
   border: 0.2px solid #fff;
 }
