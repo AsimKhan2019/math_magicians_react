@@ -1,3 +1,5 @@
+
+
 {
   "env": {
     "browser": true,
@@ -13,12 +15,16 @@
     "sourceType": "module"
   },
   "extends": ["airbnb", "plugin:react/recommended"],
-  "plugins": ["react"],
+  "plugins": ["react", "no-mixed-operators"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "no-mixed-operators": "off",
+    "no-mixed-operators/no-mixed-operators": "error",
+    "no-eval": ["error", {"allowIndirect": true}],
+    "no-unused-vars": "off"
   },
   "ignorePatterns": [
     "dist/",
