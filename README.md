@@ -27,6 +27,9 @@ Visual Studio Code
 ### Setup
 Simply create an empty repository
 Open Visual Studio Code
+Create different branches for different tasks and assignments
+Remove unneccessary files from the project 
+
 
 ### Install
 Run command in the VSC Terminal npx create-react-app math_magicians_react
@@ -34,9 +37,13 @@ The command will complete the installtion of the required files like Webpack, et
 Run npm start to start the application
 You should see the Reach logo on the front page. 
 If needed run npm init to initialize the project (but not necessary)
+Create new folders and add seperate js files in the relevant folder 
+
 
 ### Usage
 All the required folders and files are added to the application tree
+Once the project is approved, run a sync changes on all branches to update
+Run gh deploy pages to deploy your page to the github
 
 ### Run tests
 Create a pull request 
