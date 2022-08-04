@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [state, setState] = useState({
+  const [state, setNewState] = useState({
     total: 0,
     next: null,
     operation: null,
@@ -10,11 +10,11 @@ const Calculator = () => {
 
   const handleClick = (e) => {
     const answer = calculate(state, e.target.textContent);
-    setState(answer);
+    setNewState(answer);
   };
 
   const showAnswer = (e) => {
-    setState({ total: e.target.textContent });
+    setNewState({ total: e.target.textContent });
   };
 
   const createDigits = () => {
@@ -38,9 +38,9 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="display" onChange={showAnswer}>
-        {total}
-        {operation}
-        {next}
+        { total }
+        { operation }
+        { next }
       </div>
 
       <div className="simpleOperators">
