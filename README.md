@@ -13,6 +13,8 @@
 - React JS
 
 ## Live Demo (if available)
+[HEROKU](https://mathmagiciansreact.herokuapp.com/)
+[NETLIFY](https://incomparable-toffee-28ad43.netlify.app/)
 
 ## Getting Started
 
